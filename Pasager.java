@@ -1,5 +1,7 @@
-public class Pasager extends People {
-    Pasager(String nume, int age) {
-        super(nume, age);
+package org.example;
+
+public class Pasager extends Person {
+    Pasager(String name, int age) {
+        super(name, age);
     }
 }

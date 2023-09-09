@@ -1,13 +1,14 @@
+package org.example;
+
 public class Electrica extends Masina {
+
+    public Electrica(String name) {
+        super(name);
+    }
+
     @Override
-    void Consum() {
-        System.out.println("Masina este electrica si are urmatorul consum: " + super.consum);
+    public String getType() {
+        return "electric";
     }
-    Electrica(String name, int consum) {
-        super(name, consum);
-    }
-    @Override
-    public String info() {
-        return super.info();
-    }
+
 }
